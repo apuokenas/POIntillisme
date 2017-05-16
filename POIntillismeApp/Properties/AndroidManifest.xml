@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="lt.tumenas.pointillisme.app" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
+	<application android:label="POIntillismeApp" android:icon="@drawable/ic_launcher"></application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- Allows applications to open network sockets. -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<!-- Allows applications to access information about networks. -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<!-- Allows an app to access precise location. -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- Allows an app to access approximate location. -->
+</manifest>

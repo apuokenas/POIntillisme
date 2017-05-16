@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello VGTU, Click Me!</string>
+	<string name="app_name">POIntillisme</string>
+
+	<string name="poi_name_hint">POI Name</string>
+	<string name="address_hint">City, State, Postal Code.</string>
+	<string name="distance_hint">204 miles</string>
+</resources>

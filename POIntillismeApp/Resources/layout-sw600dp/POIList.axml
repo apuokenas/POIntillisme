@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:orientation="horizontal">
+    <fragment
+        class="POIApp.POIListFragment"
+        android:id="@+id/listFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/poiDetailLayout"
+        android:layout_weight="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+</LinearLayout>
